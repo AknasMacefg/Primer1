@@ -52,11 +52,12 @@ def main():
     k = 2
     Am_lst, C_ost_lst = calculate_amortization_line(C, T, L)
     Am_lst_2, C_ost_lst_2 = calculate_amortization_fast(C, T, L, k)
-    login = os.environ['Maslov_login']
-    password = os.environ['Maslov_password']
-    token = os.environ['Maslov_token']
+    login = os.environ["Maslov_login"]
+    password = os.environ["Maslov_password"]
+    token = os.environ["Maslov_token"]
     print(f"login: {login}")
     print(f"password: {password}")
     print(f"token: {token}")
+
 
 main()

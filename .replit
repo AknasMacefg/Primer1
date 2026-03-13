@@ -21,6 +21,3 @@ expertMode = true
 [userenv]
 
 [userenv.shared]
-Maslov_login = "123456"
-Maslov_password = "654321"
-Maslov_token = "162534"
